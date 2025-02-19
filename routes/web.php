@@ -35,6 +35,9 @@ Route::resource('photos', PhotoController::class)->only([
    ]);
    
 
+   Route::get('/greeting', [WelcomeController::class,'greeting']);
+
+    
 
 // Route::get('/', [PageController::class, 'index']);
 
